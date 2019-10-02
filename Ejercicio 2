@@ -1,0 +1,34 @@
+/*Problema 2*/
+
+#include <stdio.h>
+    int main(){
+        int n;
+        int i,j;
+        scanf("%d" ,&n);
+        for(i=n; i>=1; i--){
+            for(j=0; j<i; j++){
+                printf("%d ", j+1);
+            }
+            printf(" ");
+            for(j=1; j<=n-i; j++){
+                printf(" ");
+            }
+            for(j=1; j<=n-i; j++){
+                printf(" ");
+            }
+            for(j=(i); j>0; j--){
+                for(j=1; j<n-i; j++){
+                printf(" ");
+            }
+            for(j=1; j<=n-i; j++){
+                printf(" ");
+            }
+            for(j=(i); j>0; j--){
+                printf("%d ", j);
+                }
+            }
+        printf("\n");
+        }
+    }
+    
+/*Fin del problema 2 */    
